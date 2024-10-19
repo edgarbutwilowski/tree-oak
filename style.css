@@ -35,3 +35,8 @@ body {
     text-align: center;
     background: url("res/bild0.jpg") no-repeat center /cover;
 }
+
+@font-face {
+    font-family: "metamorphous-regular";
+    src: url('res/Metamorphous-Regular.ttf') format('truetype');
+}
