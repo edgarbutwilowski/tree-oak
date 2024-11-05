@@ -12,11 +12,7 @@ if(sendmailButton){
         let kontaktFormular = document.getElementById("kontaktformular");
         let kontaktText = "";
         if(kontaktFormular) kontaktText = kontaktFormular.value;
-        window.open("mailto:raphael_zahner@hotmail.com?subject=Magische Nachricht an die Hexen&body=" 
+        window.open("mailto:raphael_zahner@hotmail.com?subject=Anfrage an Tree Oak&body=" 
             + kontaktText + "%0A%0A" + vornameText + " " + nachnameText, "_blank", "noreferrer");
     }    
 }
-
-let alterHexengeistElt = document.getElementById("alter_hexengeist");
-if(alterHexengeistElt)
-    alterHexengeistElt.innerHTML = "" + new Date().getFullYear() - 1651;
